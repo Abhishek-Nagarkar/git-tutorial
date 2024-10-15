@@ -29,3 +29,23 @@
   ![Git WorkFlow](./git_workflow.png)
 
 - ## ***Making Changes***
+  - ### *git status*
+    1.  shows current changes
+    2.  If a new file is created, changes are reflected only in the working tree (directory)
+   
+  - ### *git add*
+    1. Tracks the files added for any changes
+   
+    2. Moves files to staging (index) area  
+   
+    3. `git stage` command can also be used
+   
+   - ### *git restore & gitignore*
+      1. ***git restore*** - removes file from index (staging area) temporarily and stops tracking them. eg. `git restore -S myfile.txt`
+   
+      2. ***gitignore*** - include files in gitignore to permanently exclude them from tracking
+   
+   - ### *git commit*
+      1. Saves the changes
+      > commit is a `Git Object` which is like a snapshot of our repo.
+      2. `git commit -m "Initial commit`
